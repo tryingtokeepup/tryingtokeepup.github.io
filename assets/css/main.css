@@ -1445,6 +1445,22 @@ body.is-preload #bg:before {
   font-size: 0.8rem;
   line-height: 2;
 }
+#header .content p a {
+  text-decoration: none !important;
+  color: rgb(98, 161, 161);
+  border-radius: 10px;
+  transition: 1s all;
+  display: inline-block;
+  padding: 2px 4px 2px 4px;
+  margin-top: 5px;
+}
+
+#header .content p a:hover {
+  color: black;
+  background: #00a1ec;
+  transition: 0.1s;
+  border-radius: 10px;
+}
 
 #header nav ul {
   display: -moz-flex;
