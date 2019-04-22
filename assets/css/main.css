@@ -1844,19 +1844,20 @@ body.is-preload #footer {
 .project-card img:hover {
   filter: brightness(100%);
 }
-/* @media (max-width: 1130px) {
+
+@media (max-width: 1680px) {
   .project-card {
-    width: 264px;
-    height: 290px;
+    width: 260px;
+    height: 390px;
   }
   .project-card img {
-    height: 181px;
-    width: 290px;
+    height: 190px;
+    width: 260px;
   }
-  .project-card h3 {
-    font-size: 1.2rem;
+  .project-card p {
+    font-size: 1rem;
   }
-} */
+}
 /* @media (max-width: 900px) {
   .project-card {
     width: 260px;
